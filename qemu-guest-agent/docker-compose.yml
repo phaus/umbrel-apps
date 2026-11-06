@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   agent:
-    image: docker.io/phaus/qemu-ga:9.0.2@sha256:1492960bef70c1d7395f7067a0092000dc30cd67bf71072a7ebd234b2dfd1221
+    image: ghcr.io/phaus/qemu-ga-container:11.1.0@sha256:4429f627d5e3add4486e16c772e68e91ca0d9c24c87b13573d92f0318812d37a
     privileged: true
     network_mode: "host"
     volumes:

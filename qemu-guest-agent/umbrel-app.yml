@@ -2,7 +2,7 @@ manifestVersion: 1
 id: qemu-guest-agent
 category: developer
 name: QEMU guest agent
-version: "9.0.2"
+version: "11.1.0"
 tagline: QEMU guest agent
 description: >
   This is supportive, if you want to run Umbrel as a Guest under QEMU.
@@ -21,5 +21,9 @@ port: 0
 gallery: []
 defaultPassword: ""
 releaseNotes: >
+  New in 11.1.0: Prometheus /metrics endpoint exposing VM runtime metrics
+  (agent status, OS info, CPU, load, uptime, memory, disk) in Prometheus
+  text format. Existing endpoints unchanged: HTML dashboard, JSON stats
+  and health check.
 submitter: Philipp Haussleiter
 submission: https://github.com/getumbrel/umbrel-apps/pull/1444
